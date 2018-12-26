@@ -8,7 +8,7 @@
 import SvgChart from "@/components/svg-chart.vue";
 
 export default {
-  name: "home",
+  name: "one-component",
   components: {
     SvgChart
   }
