@@ -29,19 +29,11 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
+<style lang="sass">
     @function calcu($val)
         @return 8em * $val / 100
 
     $list: (calcu(25), calcu(60), calcu(30), calcu(75), calcu(40), calcu(50), calcu(88), calcu(66))
-
-    html,
-    body
-        display: flex
-        align-items: center
-        justify-content: center
-        width: 100%
-        height: 100%
 
     .chart
         --pos: 8em

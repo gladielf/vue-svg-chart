@@ -1,11 +1,11 @@
 <template lang="pug">
   #app
     #nav
-      router-link(to="/") One component
+      router-link(to="/one-component") One component
       |  |
       |
       router-link(to="/many-components") Many components
-    router-view
+    router-view.page
 </template>
 
 <style lang="sass">
@@ -23,4 +23,11 @@
     color: #2c3e50;
     &.router-link-exact-active
       color: #42b983;
+
+.page
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100%
+  height: 100%
 </style>
