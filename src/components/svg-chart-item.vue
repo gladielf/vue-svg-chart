@@ -54,5 +54,4 @@ export default {
 
     &--active
       stroke-dashoffset: var(--active-height)
-
 </style>
