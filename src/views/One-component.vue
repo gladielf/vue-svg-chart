@@ -4,11 +4,10 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import SvgChart from "@/components/svg-chart.vue";
+import SvgChart from '@/components/svg-chart.vue';
 
 export default {
-  name: "one-component",
+  name: 'one-component',
   components: {
     SvgChart
   }

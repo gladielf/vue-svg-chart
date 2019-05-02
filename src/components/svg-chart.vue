@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: "svg-chart",
+  name: 'svg-chart',
   data() {
     return {
       items: 8,
