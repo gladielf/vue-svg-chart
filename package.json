@@ -46,7 +46,10 @@
           "singleQuote": true
         }
       ],
-      "quotes": [1, "single"]
+      "quotes": [
+        1,
+        "single"
+      ]
     },
     "parserOptions": {
       "parser": "babel-eslint"
