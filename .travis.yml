@@ -14,3 +14,11 @@ cache:
 script:
   - npm run lint
   - npm run build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: dist
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master
