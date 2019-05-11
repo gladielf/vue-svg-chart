@@ -1,5 +1,7 @@
 # svg-chart
 
+[![Build Status](https://travis-ci.org/gladielf/vue-svg-chart.svg?branch=master)](https://travis-ci.org/gladielf/vue-svg-chart)
+
 ## Project setup
 ```
 npm install
