@@ -1,7 +1,7 @@
 <template lang="pug">
     g.chart-item__group(stroke-width="0.5em", stroke-linecap="round")
       line.chart-item__line(:x1="_setPosition", y1="95%", :x2="_setPosition", y2="5%", stroke="#fbc531")
-      line.chart-item__line.chart-item__line--mod(:x1="_setPosition", y1="95%", :x2="_setPosition", y2="5%", stroke="#44bd32", :class="{'chart-item__line--active': hovered}")
+      line.chart-item__line.chart-item__line--mod(:x1="_setPosition", y1="95%", :x2="_setPosition", y2="5%", stroke="#775533", :class="{'chart-item__line--active': hovered}")
 </template>
 
 <script>
