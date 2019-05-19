@@ -38,7 +38,7 @@ $list: (calcu(25), calcu(60), calcu(30), calcu(75), calcu(40), calcu(50), calcu(
 .chart
     --pos: 8em
     $root-node: &
-    background: #00ccfc
+    background: #ccccfc
 
     &:hover
       #{$root-node}__group
