@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/gladielf/vue-svg-chart.svg?branch=master)](https://travis-ci.org/gladielf/vue-svg-chart)
 
+[![Coverage Status](https://coveralls.io/repos/github/gladielf/vue-svg-chart/badge.svg?branch=master)](https://coveralls.io/github/gladielf/vue-svg-chart?branch=master)
+
 ## Project setup
 ```
 npm install

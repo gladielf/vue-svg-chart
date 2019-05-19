@@ -9,6 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "coveralls": "^3.0.3",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
@@ -88,8 +89,15 @@
     ],
     "testURL": "http://localhost/",
     "collectCoverage": true,
-    "collectCoverageFrom": ["**/src/**/*.{js,vue}", "!**/src/main.js"],
-    "coverageReporters": ["html", "text-summary"],
+    "collectCoverageFrom": [
+      "**/src/**/*.{js,vue}",
+      "!**/src/main.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "html",
+      "text-summary"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 80,
