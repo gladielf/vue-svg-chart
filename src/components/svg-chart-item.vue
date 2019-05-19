@@ -21,11 +21,22 @@ export default {
       default: false
     }
   },
+  data() {
+    return {
+      delay: 0
+    };
+  },
   methods: {
     _setItemHeight() {
       const activeVal = Math.random() * Number(this.itemHeight.split('em')[0]);
       this.$el.style.setProperty('--item-height', this.itemHeight);
       this.$el.style.setProperty('--active-height', `${activeVal}em`);
+    },
+    _setItemDelay() {
+      this.delay = `.${this.position < 10 ? '0' : ''}${
+        this.position.toString().split('.')[0]
+      }s`;
+      this.$el.style.setProperty('--active-delay', this.delay);
     }
   },
   computed: {
@@ -36,10 +47,12 @@ export default {
   watch: {
     itemHeight() {
       this._setItemHeight();
+      this._setItemDelay();
     }
   },
   mounted() {
     this._setItemHeight();
+    this._setItemDelay();
   }
 };
 </script>
@@ -54,4 +67,5 @@ export default {
 
     &--active
       stroke-dashoffset: var(--active-height)
+      transition-delay: var(--active-delay)
 </style>
