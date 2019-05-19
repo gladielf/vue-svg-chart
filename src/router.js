@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import OneComponent from './views/One-component.vue';
+import ManyComponent from './views/Many-components.vue';
 
 Vue.use(Router);
 
@@ -9,21 +10,18 @@ export default new Router({
     {
       path: '/',
       redirect: {
-        name: 'OneComponent'
+        name: 'one-component'
       }
     },
     {
       path: '/one-component',
-      name: 'OneComponent',
+      name: 'one-component',
       component: OneComponent
     },
     {
       path: '/many-components',
-      name: 'manyComponents',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('./views/Many-components.vue')
+      name: 'many-components',
+      component: ManyComponent
     }
   ]
 });
