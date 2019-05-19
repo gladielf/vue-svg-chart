@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`svg-chart-item - Snapshot Snapshot 1`] = `
+<g
+  class="chart-item__group"
+  stroke-linecap="round"
+  stroke-width="0.5em"
+>
+  <line
+    class="chart-item__line"
+    stroke="#fbc531"
+    x1="10%"
+    x2="10%"
+    y1="95%"
+    y2="5%"
+  />
+  <line
+    class="chart-item__line chart-item__line--mod"
+    stroke="#775533"
+    x1="10%"
+    x2="10%"
+    y1="95%"
+    y2="5%"
+  />
+</g>
+`;

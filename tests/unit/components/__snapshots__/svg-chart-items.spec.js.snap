@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`svg-chart-items - Snapshot Snapshot 1`] = `
+<svg
+  class="chart-items"
+  width="100%"
+/>
+`;

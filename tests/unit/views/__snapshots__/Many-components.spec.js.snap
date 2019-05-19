@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Many-components - Snapshot Snapshot 1`] = `
+<div
+  class="many-components"
+>
+  <div
+    class="container"
+  >
+    <label>
+      <input
+        min="0"
+        type="number"
+      />
+      <span
+        class="label"
+      >
+        svg height in 'em'
+      </span>
+    </label>
+    <label>
+      <input
+        min="0"
+        type="number"
+      />
+      <span
+        class="label"
+      >
+        item num
+      </span>
+    </label>
+  </div>
+  <div
+    class="container"
+  >
+    <svg
+      class="chart-items"
+      height="8em"
+      width="100%"
+    >
+      <g
+        class="chart-item__group"
+        stroke-linecap="round"
+        stroke-width="0.5em"
+      >
+        <line
+          class="chart-item__line"
+          stroke="#fbc531"
+          x1="10%"
+          x2="10%"
+          y1="95%"
+          y2="5%"
+        />
+        <line
+          class="chart-item__line chart-item__line--mod"
+          stroke="#775533"
+          x1="10%"
+          x2="10%"
+          y1="95%"
+          y2="5%"
+        />
+      </g>
+      <g
+        class="chart-item__group"
+        stroke-linecap="round"
+        stroke-width="0.5em"
+      >
+        <line
+          class="chart-item__line"
+          stroke="#fbc531"
+          x1="30%"
+          x2="30%"
+          y1="95%"
+          y2="5%"
+        />
+        <line
+          class="chart-item__line chart-item__line--mod"
+          stroke="#775533"
+          x1="30%"
+          x2="30%"
+          y1="95%"
+          y2="5%"
+        />
+      </g>
+      <g
+        class="chart-item__group"
+        stroke-linecap="round"
+        stroke-width="0.5em"
+      >
+        <line
+          class="chart-item__line"
+          stroke="#fbc531"
+          x1="50%"
+          x2="50%"
+          y1="95%"
+          y2="5%"
+        />
+        <line
+          class="chart-item__line chart-item__line--mod"
+          stroke="#775533"
+          x1="50%"
+          x2="50%"
+          y1="95%"
+          y2="5%"
+        />
+      </g>
+      <g
+        class="chart-item__group"
+        stroke-linecap="round"
+        stroke-width="0.5em"
+      >
+        <line
+          class="chart-item__line"
+          stroke="#fbc531"
+          x1="70%"
+          x2="70%"
+          y1="95%"
+          y2="5%"
+        />
+        <line
+          class="chart-item__line chart-item__line--mod"
+          stroke="#775533"
+          x1="70%"
+          x2="70%"
+          y1="95%"
+          y2="5%"
+        />
+      </g>
+      <g
+        class="chart-item__group"
+        stroke-linecap="round"
+        stroke-width="0.5em"
+      >
+        <line
+          class="chart-item__line"
+          stroke="#fbc531"
+          x1="90%"
+          x2="90%"
+          y1="95%"
+          y2="5%"
+        />
+        <line
+          class="chart-item__line chart-item__line--mod"
+          stroke="#775533"
+          x1="90%"
+          x2="90%"
+          y1="95%"
+          y2="5%"
+        />
+      </g>
+    </svg>
+  </div>
+</div>
+`;
