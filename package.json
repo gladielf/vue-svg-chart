@@ -88,7 +88,7 @@
     ],
     "testURL": "http://localhost/",
     "collectCoverage": true,
-    "collectCoverageFrom": ["**/src/**/*.{js,vue}"],
+    "collectCoverageFrom": ["**/src/**/*.{js,vue}", "!**/src/main.js"],
     "coverageReporters": ["html", "text-summary"],
     "coverageThreshold": {
       "global": {
