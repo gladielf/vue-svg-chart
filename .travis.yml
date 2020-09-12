@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - "9"
 dist: trusty
-sudo: false
+os: linux
+
 branches:
   only:
   - master
@@ -21,9 +22,10 @@ after_script:
   - cat ./coverage/lcov.info | coveralls
 
 deploy:
+  strategy: git
   provider: pages
-  skip_cleanup: true
+  cleanup: true
   local_dir: dist
-  github_token: $GITHUB_TOKEN
+  token: $GITHUB_TOKEN
   on:
     branch: master
