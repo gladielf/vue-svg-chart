@@ -1,7 +1,7 @@
 <template lang="pug">
   svg.chart(width="100%", height="8em")
     g.chart__group(v-for="item, index in items", stroke-width="0.5em", stroke-linecap="round")
-      line.chart__line(:x1="_getPosition(index)", y1="95%", :x2="_getPosition(index)", y2="5%", stroke="#ff5683")
+      line.chart__line(:x1="_getPosition(index)", y1="95%", :x2="_getPosition(index)", y2="5%", stroke="#fff683")
       line.chart__line.chart__line--mod(:x1="_getPosition(index)", y1="95%", :x2="_getPosition(index)", y2="5%", stroke="#531af0")
 </template>
 

@@ -43,8 +43,8 @@ describe('svg-chart-item - Watch', () => {
     const spyDelay = jest.spyOn(wrapper.vm, '_setItemDelay');
     expect(wrapper.vm.delay).toBe('.05s');
     wrapper.vm.itemHeight = '6';
-    expect(spyHeight).toHaveBeenCalled();
-    expect(spyDelay).toHaveBeenCalled();
+    expect(spyHeight).not.toHaveBeenCalled();
+    expect(spyDelay).not.toHaveBeenCalled();
   });
 });
 

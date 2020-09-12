@@ -16,7 +16,7 @@ exports[`One-component - Snapshot Snapshot 1`] = `
     >
       <line
         class="chart__line"
-        stroke="#ff5683"
+        stroke="#fff683"
         x1="6.25%"
         x2="6.25%"
         y1="95%"
@@ -38,7 +38,7 @@ exports[`One-component - Snapshot Snapshot 1`] = `
     >
       <line
         class="chart__line"
-        stroke="#ff5683"
+        stroke="#fff683"
         x1="18.75%"
         x2="18.75%"
         y1="95%"
@@ -60,7 +60,7 @@ exports[`One-component - Snapshot Snapshot 1`] = `
     >
       <line
         class="chart__line"
-        stroke="#ff5683"
+        stroke="#fff683"
         x1="31.25%"
         x2="31.25%"
         y1="95%"
@@ -82,7 +82,7 @@ exports[`One-component - Snapshot Snapshot 1`] = `
     >
       <line
         class="chart__line"
-        stroke="#ff5683"
+        stroke="#fff683"
         x1="43.75%"
         x2="43.75%"
         y1="95%"
@@ -104,7 +104,7 @@ exports[`One-component - Snapshot Snapshot 1`] = `
     >
       <line
         class="chart__line"
-        stroke="#ff5683"
+        stroke="#fff683"
         x1="56.25%"
         x2="56.25%"
         y1="95%"
@@ -126,7 +126,7 @@ exports[`One-component - Snapshot Snapshot 1`] = `
     >
       <line
         class="chart__line"
-        stroke="#ff5683"
+        stroke="#fff683"
         x1="68.75%"
         x2="68.75%"
         y1="95%"
@@ -148,7 +148,7 @@ exports[`One-component - Snapshot Snapshot 1`] = `
     >
       <line
         class="chart__line"
-        stroke="#ff5683"
+        stroke="#fff683"
         x1="81.25%"
         x2="81.25%"
         y1="95%"
@@ -170,7 +170,7 @@ exports[`One-component - Snapshot Snapshot 1`] = `
     >
       <line
         class="chart__line"
-        stroke="#ff5683"
+        stroke="#fff683"
         x1="93.75%"
         x2="93.75%"
         y1="95%"
