@@ -10,16 +10,16 @@
   },
   "dependencies": {
     "coveralls": "^3.0.3",
-    "vue": "^2.5.17",
+    "vue": "^3.5.18",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
     "@vue/cli-plugin-eslint": "^3.2.0",
-    "@vue/cli-plugin-unit-jest": "^4.5.6",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
     "@vue/cli-service": "^4.5.6",
     "@vue/eslint-config-prettier": "^4.0.0",
-    "@vue/test-utils": "^1.0.0-beta.20",
+    "@vue/test-utils": "^2.4.6",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^26.3.0",
